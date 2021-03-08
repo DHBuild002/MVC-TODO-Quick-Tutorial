@@ -13,7 +13,7 @@ The App Pattern appears to break down into the 3 parts in the following way:
 how different functions should handle that inputted data once they are called. For example, you have to outline what a ToDo task looks 
 like, how & from where the data (Tasks) should be removed.
 
-**View**: This is the Window into our application - This part of the program deals with the visual elements that typically are 
+**View**: This is the Window into your application - This part of the program deals with the visual elements that typically are 
 generated as the result of new data being added to the app, or existing date being remove or changed. 
 You will typically see alot of methods talking about 'creating', 'removing' or 'getting' items in here.
 
