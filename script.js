@@ -1,6 +1,7 @@
 class Model {
   constructor() {
     this.todos = JSON.parse(localStorage.getItem("todos")) || [];
+
   }
   clearLS () {
     localStorage.clear();
@@ -175,7 +176,7 @@ class Controller {
     this.view = view;
     
     // Start the Application Functions
-    this.model.bindTodoListChanged(this.onTodoListChanged);
+    // this.model.bindTodoListChanged(this.onTodoListChanged);
     this.view.bindAddTodo(this.handleAddTodo);
     this.view.bindDeleteTodo(this.handleDeleteTodo);
     this.view.bindToggleTodo(this.handleToggleTodo);
